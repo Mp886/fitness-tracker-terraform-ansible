@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fitness Tracker</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="logo">Fitness Tracker</div>
+        <ul class="menu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#workouts">Workouts</a></li>
+            <li><a href="#nutrition">Nutrition</a></li>
+            <li><a href="#progress">Progress</a></li>
+        </ul>
+    </nav>
+
+    <header id="home" class="header">
+        <h1><font color="white">Welcome to Your Fitness Tracker</font></h1>
+        <p><font color="white">Track your workouts, monitor your nutrition, and see your progress.</font></p>
+    </header>
+
+    <section id="workouts" class="section">
+        <h2><font color="white">Workouts</font></h2>
+        <form id="workout-form">
+            <input type="text" id="workout-name" placeholder="Workout Name" required>
+            <textarea id="workout-details" placeholder="Workout Details" required></textarea>
+            <button type="submit"><font color="red">Add Workout</font></button>
+        </form>
+        <div id="workouts-container" class="workouts-container"></div>
+    </section>
+
+    <section id="nutrition" class="section">
+        <h2><font color="white">Nutrition</font></h2>
+        <form id="nutrition-form">
+            <input type="text" id="nutrition-name" placeholder="Nutrition Plan Name" required>
+            <textarea id="nutrition-details" placeholder="Nutrition Plan Details" required></textarea>
+            <button type="submit"><font color="red">Add Nutrition Plan</font></button>
+        </form>
+        <div id="nutrition-container" class="nutrition-container"></div>
+    </section>
+
+    <section id="progress" class="section">
+        <h2><font color="white">Progress</font></h2>
+        <form id="progress-form">
+            <input type="text" id="progress-name" placeholder="Progress Name" required>
+            <textarea id="progress-details" placeholder="Progress Details" required></textarea>
+            <button type="submit"><font color="red">Add Progress</font></button>
+        </form>
+        <div id="progress-container" class="progress-container"></div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2024 Fitness Tracker. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
