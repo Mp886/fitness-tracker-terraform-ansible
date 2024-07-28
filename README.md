@@ -15,22 +15,6 @@ Before you begin, ensure you have the following installed:
 - AWS CLI configured with appropriate credentials
 - Access to an AWS account
 
-## Project Structure
-
-├── app
-│ ├── files
-│ │ ├── index.html
-│ │ ├── styles.css
-│ │ └── script.js
-│ ├── tasks
-│ │ └── main.yaml
-│ └── meta
-│ └── main.yaml
-├── inventory.ini
-├── playbook.yaml
-└── terraform
-├── main.tf
-
 ## Setup
 
 ### Step 1: Provision EC2 Instances with Terraform
